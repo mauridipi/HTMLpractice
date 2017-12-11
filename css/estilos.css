@@ -1,0 +1,36 @@
+body
+{
+  background-color: grey
+}
+footer
+{
+  margin-top: 40px;
+  margin-left: 10px;
+}
+img
+{
+  background-color: gold;
+  border-radius: 10px;
+}
+#info
+{
+  display: block;
+  margin: 0 auto;
+}
+body#contenedor
+{
+  font-family: helvetica;
+  font-size: 16px;
+}
+.itemIndice
+{
+  list-style-type: upper-roman;
+}
+.enlace
+{
+  color: red;
+}
+.resaltado
+{
+  background-color: yellow; 
+}

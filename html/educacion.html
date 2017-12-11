@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Maurizio Di Pietro">
+    <meta name="keywords" content="html,svg,multimedia,curriculum">
+    <meta name="description" content="Evaluación final Curso 1 Next University">
+    <title> Evaluación Final Curso 1 </title>
+   <link rel="stylesheet" href="../css/estilos.css">
+  </head>
+  <body>
+    <header>
+      <img src="../img/logo.svg" width="150px" height="200px">
+      <h1> Curriculum Vitae </h1>
+        <h2> Datos Personales </h2>
+          <h3> Nombre: <em>Pedro</em></h3>
+          <h3> Apellido: <em>Pérez</em><h3>
+          <h3> Fecha de Nacimiento: <em>03/02/1990</em> </h3>
+          <h3> Lugar de Nacimiento: <em>Caracas</em> </h3>
+    </header>
+    <nav>
+      <h2> Información Personal </h2>
+      <ul>
+        <li><a href="../index.html"> Inicio </a></li>
+        <li><a href="educacion.html"> Educación </a></li>
+        <li><a href="experiencia.html"> Experiencia </a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2> Educación </h2>
+        <table border="1" title="tabla1">
+          <thead>
+            <tr>
+              <th> <b>Año</b> </th>
+              <th> <b>Institución</b> </th>
+              <th> <b>Lugar</b> </th>
+              <th> <b>¿Culminó?</b> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> 2016 </td>
+              <td> Universidad Carabobo (UC) </td>
+              <td> Venezuela </td>
+              <td> Sí </td>
+            </tr>
+            <tr>
+              <td> 2017 </td>
+              <td> SAE Institute Madrid </td>
+              <td> España </td>
+              <td> No </td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+    <section>
+      <p></p>
+      <form name="form_estudios" autocomplete ="on">
+        <legend> <h2>Agregar Estudios</h2> </legend>
+          <p>Año:
+            <select>
+              <option> 2016 </option>
+              <option> 2017 </option>
+            </select>
+          </p>
+          <label for="institucion"> Institución: </label>
+          <input type="text" name="institucion" id="institucion" required>
+          <p> Lugar: <textarea name="area_lugar" rows="3" cols="40"></textarea> </p>
+          <p> ¿Culminó? </p>
+          <input type="radio" id="radioSi">
+          <label for="radioSi"> <b>Sí</b> </label>
+          <input type="radio" id="radioNo">
+          <label for="radioNo"> <b>No</b> </label>
+          <p><input type="submit" value="Enviar"></p>
+    </section>
+    <footer>
+      <h4> @ Derechos Reservados </h4>
+        <ul>
+          <li> <b>Correo electrónico:</b> pedroperez@gmail.com</li>
+          <li> <b>Teléfono:</b> +36 5543 63 33 12</li>
+          <li> <b>instagram:</b> @pedroperez</li>
+          <li> <b>twitter:</b> @tiendaspedroperez</li>
+        </ul>
+    </footer>
+  </body>
+</html>
